@@ -16,7 +16,7 @@ class CeiqApp extends StatefulWidget{
 
 class _CeiqApp extends State<CeiqApp> {
 
-  int indexTap = 1;
+  int indexTap = 0;
 
   final List<Widget> widgetsChildren = [
     Home('Eden Marlin'),

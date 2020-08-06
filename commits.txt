@@ -1,0 +1,11 @@
+commit 4bb55ce14311df8f76088af901cbfec613796974
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Aug 5 19:04:54 2020 -0500
+
+    Creado el Bottom Navigation Bar
+
+commit 5393db609ab6989b114d64f5d73e644a39828f14
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Aug 5 15:20:36 2020 -0500
+
+    first commit

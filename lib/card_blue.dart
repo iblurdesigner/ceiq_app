@@ -1,3 +1,4 @@
+import 'package:com/courses/cirugiaBasicaOne.dart';
 import 'package:flutter/material.dart';
 
 class CardBlue extends StatelessWidget{
@@ -15,12 +16,22 @@ class CardBlue extends StatelessWidget{
 
     final card = Container(
       alignment: Alignment.center,
-      padding: EdgeInsets.all(10),
+//      padding: EdgeInsets.all(10),
 
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(10),
-        child: Image.asset(
-          pathImage
+      child: RaisedButton(
+        onPressed: () {
+          Navigator.push(context, new MaterialPageRoute(
+              builder: (context) => CirugiaBasicaOne()
+          )
+          );
+        },
+        color: Color.fromRGBO(245, 245, 245, 1),
+        elevation: 0,
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(10),
+          child: Image.asset(
+            pathImage
+          ),
         ),
       ),
     );
@@ -40,7 +51,7 @@ class CardBlue extends StatelessWidget{
     );
 
     final chapters = Align(
-      alignment: Alignment(0,0.4),
+      alignment: Alignment(0,0.5),
       child: Text(
         chapterText,
         style: TextStyle(

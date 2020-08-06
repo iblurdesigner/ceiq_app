@@ -79,6 +79,7 @@ flutter:
     - assets/img/logo_CEIQ2@2x.png
     - assets/img/logo_CEIQ.png
     - assets/img/cardBas01.png
+    - assets/img/cbasica01_card.png
   fonts:
     - family: Nexa
       fonts:
