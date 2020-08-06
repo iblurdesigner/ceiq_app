@@ -80,6 +80,8 @@ flutter:
     - assets/img/logo_CEIQ.png
     - assets/img/cardBas01.png
     - assets/img/cbasica01_card.png
+    - assets/img/bg_course.png
+    - assets/icons/stadistics.png
   fonts:
     - family: Nexa
       fonts:

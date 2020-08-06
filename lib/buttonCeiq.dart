@@ -23,6 +23,8 @@ class ButtonCeiq extends StatelessWidget {
               );
             },
 
+            splashColor: Colors.blueAccent,
+
             child: Text(
               '$buttonText',
               style: TextStyle(

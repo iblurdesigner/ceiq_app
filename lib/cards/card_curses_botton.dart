@@ -1,4 +1,6 @@
 import 'package:com/buttonCeiq.dart';
+import 'package:com/courses/content_cb01.dart';
+import 'package:com/ui/button_custom.dart';
 import 'package:flutter/material.dart';
 
 class CardCursesButton extends StatelessWidget{
@@ -31,8 +33,22 @@ class CardCursesButton extends StatelessWidget{
             left: 120,
             top: 350
           ),
-            child: ButtonCeiq('Empezar')
+          child: ButtonCustom(
+            buttonText: 'Empezar',
+            onPressed: () {
+            Navigator.push(context, new MaterialPageRoute(
+                builder: (context) => ContentCB01()
+            )
+            );
+          },)
         )
+//        Container(
+//          margin: EdgeInsets.only(
+//            left: 120,
+//            top: 350
+//          ),
+//            child: ButtonCeiq('Empezar')
+//        )
       ],
     );
   }

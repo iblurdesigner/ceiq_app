@@ -8,7 +8,7 @@ class CirugiaBasicaOne extends StatelessWidget{
     // TODO: implement build
     //throw UnimplementedError();
 
-    final charpter = Container(
+    final chapter = Container(
       margin: EdgeInsets.only(
           left: 40
       ),
@@ -36,7 +36,7 @@ class CirugiaBasicaOne extends StatelessWidget{
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            charpter,
+            chapter,
             Container(
               height: 695,
                 child: ListView(
