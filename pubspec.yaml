@@ -81,6 +81,13 @@ flutter:
     - assets/img/cardBas01.png
     - assets/img/cbasica01_card.png
     - assets/img/bg_course.png
+    - assets/img/listasCont/carga_01.png
+    - assets/img/listasCont/carga_02.png
+    - assets/img/listasCont/carga_03.png
+    - assets/img/listasCont/LC_01.png
+    - assets/img/listasCont/LC_02.png
+    - assets/img/listasCont/LC_03.png
+    - assets/img/listasCont/separador.png
     - assets/icons/stadistics.png
   fonts:
     - family: Nexa

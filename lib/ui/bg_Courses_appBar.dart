@@ -8,7 +8,7 @@ class BgCoursesAppBar extends StatelessWidget{
 
     final titleCourse = Container(
       margin: EdgeInsets.only(
-        top: 60,
+        top: 100,
           left: 40,
       ),
       child: Text(
@@ -24,7 +24,7 @@ class BgCoursesAppBar extends StatelessWidget{
 
     final titleSection = Container(
       margin: EdgeInsets.only(
-          top: 140,
+          top: 180,
           left: 40,
       ),
       child: Text(
@@ -41,7 +41,7 @@ class BgCoursesAppBar extends StatelessWidget{
 
     final rectangulo = Container(
       margin: EdgeInsets.only(
-          top: 190,
+          top: 230,
           left: 5,
           right: 5,
       ),
@@ -111,6 +111,13 @@ class BgCoursesAppBar extends StatelessWidget{
 
     return Stack(
       children: <Widget>[
+        AppBar(
+          backgroundColor: Colors.white,
+          iconTheme: IconThemeData(
+            color: Color.fromRGBO(151, 151, 151, 1),
+          ),
+          elevation: 1,
+        ),
         Image.asset('assets/img/bg_course.png'),
         titleCourse,
         titleSection,
