@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'welcome.dart';
+import 'ceiq_app.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,9 +16,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(
-        body: new Welcome()
-      )
+      home: CeiqApp()
+//      Scaffold(
+//        body: new Welcome()
+//      )
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

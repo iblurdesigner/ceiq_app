@@ -10,7 +10,8 @@ class Buscador extends StatelessWidget{
       margin: EdgeInsets.only(
           top: 40,
           left: 5,
-          right: 5
+          right: 5,
+          bottom: 10
       ),
 
       width: 334,

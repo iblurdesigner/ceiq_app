@@ -1,7 +1,7 @@
-import 'package:com/card_blue_list.dart';
 import 'package:flutter/material.dart';
 import 'logoSmall.dart';
 import 'buscador.dart';
+import 'review_course_list.dart';
 
 class Home extends StatelessWidget {
 
@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
 
     final textWelcome = Container(
       margin: EdgeInsets.only(
-        top: 80,
+        top: 50,
         left: 40,
         right: 30
       ),
@@ -76,7 +76,7 @@ class Home extends StatelessWidget {
           textWelcome,
           text2,
           Buscador(),
-          CardBlueList()
+          ReviewCourseList()
         ],
       ),
     );
