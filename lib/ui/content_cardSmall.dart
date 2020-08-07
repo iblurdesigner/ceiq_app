@@ -6,8 +6,10 @@ class ContentCardSmall extends StatelessWidget{
   String textDataContent = '';
   String textpercent = '';
   String imgCarga = '';
+  GestureTapCallback onPressed;
 
-  ContentCardSmall(this.imgCarSmall, this.textDataContent, this.textpercent, this.imgCarga);
+  ContentCardSmall(this.imgCarSmall, this.textDataContent, this.textpercent, this.imgCarga, {@required this.onPressed});
+
 
   @override
   Widget build(BuildContext context) {
@@ -18,13 +20,18 @@ class ContentCardSmall extends StatelessWidget{
       margin: EdgeInsets.only(
         left: 15
       ),
-      child: Image.asset(imgCarSmall),
+
+      child: RaisedButton(
+        onPressed: onPressed,
+        color: Colors.transparent,
+        elevation: 0,
+
+        child: Image.asset(imgCarSmall),
+      )
     );
 
     final dataContent = Container(
-      margin: EdgeInsets.only(
-        left: 10
-      ),
+
       child: Text(
         textDataContent,
         style: TextStyle(
@@ -60,17 +67,13 @@ class ContentCardSmall extends StatelessWidget{
 
     final carga = Container(
       margin: EdgeInsets.only(
-        left: 20
+        left: 15
       ),
       child: Image.asset(imgCarga),
     );
 
     final wrapCard = Container(
-      margin: EdgeInsets.only(
-        left: 20
-      ),
-      width: 385,
-
+//      width: 405,
 
       padding: EdgeInsets.all(10.0),
       child: Row(

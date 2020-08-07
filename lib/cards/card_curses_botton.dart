@@ -34,13 +34,15 @@ class CardCursesButton extends StatelessWidget{
             top: 350
           ),
           child: ButtonCustom(
-            buttonText: 'Empezar',
-            onPressed: () {
-            Navigator.push(context, new MaterialPageRoute(
-                builder: (context) => ContentCB01()
-            )
-            );
-          },)
+              buttonText: 'Empezar',
+              onPressed: () {
+              Navigator.push(context, new MaterialPageRoute(
+                  builder: (context) => ContentCB01()
+              )
+              );
+            },
+            color: Color.fromRGBO(60, 165, 206, 1),
+          )
         )
 //        Container(
 //          margin: EdgeInsets.only(

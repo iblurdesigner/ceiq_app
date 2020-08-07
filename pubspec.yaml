@@ -88,6 +88,8 @@ flutter:
     - assets/img/listasCont/LC_02.png
     - assets/img/listasCont/LC_03.png
     - assets/img/listasCont/separador.png
+    - assets/img/video.png
+    - assets/img/bg_info_content.png
     - assets/icons/stadistics.png
   fonts:
     - family: Nexa

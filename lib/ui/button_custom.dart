@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class ButtonCustom extends StatelessWidget{
 
   String buttonText = '';
+  var color;
 
-  ButtonCustom( {@required this.onPressed, this.buttonText} );
+  ButtonCustom( {@required this.onPressed, this.buttonText, this.color} );
   GestureTapCallback onPressed;
 
 
@@ -16,6 +17,8 @@ class ButtonCustom extends StatelessWidget{
     return RaisedButton(
 
       onPressed: onPressed,
+      //      color: Color.fromRGBO(60, 165, 206, 1),
+      color: color,
 
       child: Text(
         '$buttonText',
@@ -27,7 +30,6 @@ class ButtonCustom extends StatelessWidget{
         ),
       ),
 
-      color: Color.fromRGBO(60, 165, 206, 1),
 
       //para bordes redondeados del boton
       shape: new RoundedRectangleBorder(
