@@ -19,7 +19,7 @@ class _CeiqApp extends State<CeiqApp> {
   int indexTap = 0;
 
   final List<Widget> widgetsChildren = [
-    Home('Eden Marlin'),
+    Home('Fernando Torres'),
     CirugiaBasicaOne(),
     Profile()
   ];

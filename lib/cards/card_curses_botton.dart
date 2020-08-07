@@ -44,13 +44,6 @@ class CardCursesButton extends StatelessWidget{
             color: Color.fromRGBO(60, 165, 206, 1),
           )
         )
-//        Container(
-//          margin: EdgeInsets.only(
-//            left: 120,
-//            top: 350
-//          ),
-//            child: ButtonCeiq('Empezar')
-//        )
       ],
     );
   }

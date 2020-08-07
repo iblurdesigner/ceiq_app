@@ -16,10 +16,10 @@ class CardBlueList extends StatelessWidget{
         scrollDirection: Axis.horizontal,
         children: <Widget>[
           CardBlue("assets/img/cardBas01.png", 'Cirugía Básica I', '11 Capítulos'),
-          CardBlue("assets/img/cardBas01.png", 'Cirugía Básica II', '15 Capítulos'),
-          CardBlue("assets/img/cardBas01.png", 'Cirugía\nLaparoscópica I', '23 Capítulos'),
-          CardBlue("assets/img/cardBas01.png", 'Cirugía\nLaparoscópica II', '30 Capítulos'),
-          CardBlue("assets/img/cardBas01.png", 'Cirugía\nMínimamente\nInvasiva', '26 Capítulos'),
+          CardBlue("assets/img/home/cursando_01.png", 'Cirugía Básica II', '15 Capítulos'),
+          CardBlue("assets/img/home/cursando_02.png", 'Cirugía\nLaparoscópica I', '23 Capítulos'),
+          CardBlue("assets/img/home/cursando_03.png", 'Cirugía\nLaparoscópica II', '30 Capítulos'),
+          CardBlue("assets/img/home/cursando_04.png", 'Cirugía\nMínimamente\nInvasiva', '26 Capítulos'),
         ],
       ),
     );

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class CardBlue extends StatelessWidget{
 
-  String pathImage = 'assets/img/cardBas01.png';
+  String pathImage = '';
   String courseText = '';
   String chapterText = '';
 
