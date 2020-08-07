@@ -18,7 +18,7 @@ class ButtonCeiq extends StatelessWidget {
           child: RaisedButton(
             onPressed: () {
               Navigator.push(context, new MaterialPageRoute(
-                  builder: (context) => Home('Eden Marlin')
+                  builder: (context) => Home('Fernando Torres')
                 )
               );
             },

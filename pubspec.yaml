@@ -90,6 +90,10 @@ flutter:
     - assets/img/listasCont/separador.png
     - assets/img/video.png
     - assets/img/bg_info_content.png
+    - assets/img/drTorres.png
+    - assets/img/perfil/course_01.png
+    - assets/img/perfil/course_02.png
+    - assets/img/perfil/course_03.png
     - assets/icons/stadistics.png
   fonts:
     - family: Nexa
